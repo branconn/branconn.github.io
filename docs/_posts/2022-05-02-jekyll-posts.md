@@ -1,6 +1,5 @@
 ---
-layout: post
-author: b_easy
+author: b easy
 ---
 This is an example of a jekyll post.
 
