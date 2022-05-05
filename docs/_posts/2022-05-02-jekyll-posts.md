@@ -1,5 +1,5 @@
 ---
-author: b easy
+project: website
 ---
 This is an example of a jekyll post.
 

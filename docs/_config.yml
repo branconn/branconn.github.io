@@ -1,13 +1,13 @@
 collections:
-  authors:
+  projects:
     output: true
     #collections do not output a page by default, so this needs to be explicitly called like above
 defaults:
   - scope:
       path: ""
-      type: "authors"
+      type: "projects"
     values:
-      layout: "author"
+      layout: "page"
   - scope:
       path: ""
       type: "posts"
@@ -21,4 +21,14 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-include-cache
 baseurl: ""
+# remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+theme: minima
+title: CafedeCube
+author: Brandon C
+header_files:
+  - index.html
+  - about.md
+  - projects.html
+  - notes.html
