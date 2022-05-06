@@ -32,3 +32,4 @@ header_files:
   - about.md
   - projects.html
   - notes.html
+theme: jekyll-theme-minimal
