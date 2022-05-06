@@ -1,8 +1,9 @@
-# - name: Index
-#   link: /
-# - name: About
-#   link: /about.html
-# - name: Projects
-#   link: /projects.html
-# - name: Notes
-#   link: /notes.html
+main:
+  - title: "Home"
+    url: /
+  - title: "About"
+    url: /about.html
+  - title: "Notes"
+    url: /notes.html
+  - title: "Projects"
+    url: /projects.html

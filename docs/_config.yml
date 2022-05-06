@@ -7,12 +7,12 @@ defaults:
       path: ""
       type: "projects"
     values:
-      layout: "page"
+      layout: "default"
   - scope:
       path: ""
       type: "posts"
     values:
-      layout: "post"
+      layout: "default"
   - scope:
       path: ""
     values:
@@ -23,10 +23,10 @@ plugins:
   - jekyll-seo-tag
   - jekyll-include-cache
 baseurl: ""
-# remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-theme: minima
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+# theme: minima
 title: CafedeCube
-author: Brandon C
+author: B. C.
 header_files:
   - index.html
   - about.md
