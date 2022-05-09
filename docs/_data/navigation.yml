@@ -7,3 +7,12 @@ main:
     url: /notes.html
   - title: "Projects"
     url: /projects.html
+projects:
+  - title: Projects
+    children:
+      - title: "Linkage Caliper"
+        url: /projects/linkage.html
+      - title: "Protabla"
+        url: /projects/protabla.html
+      - title: "This Website"
+        url: /projects/website.html

@@ -7,16 +7,18 @@ defaults:
       path: ""
       type: "projects"
     values:
-      layout: "default"
+      layout: "posts"
+      sidebar:
+        nav: "projects"
   - scope:
       path: ""
       type: "posts"
     values:
-      layout: "default"
+      layout: "single"
   - scope:
       path: ""
     values:
-      layout: "default"
+      layout: "single"
 plugins:
   - jekyll-feed
   - jekyll-sitemap
@@ -24,6 +26,7 @@ plugins:
   - jekyll-include-cache
 baseurl: ""
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "dark" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 # theme: minima
 title: CafedeCube
 author: B. C.
@@ -32,4 +35,4 @@ header_files:
   - about.md
   - projects.html
   - notes.html
-theme: jekyll-theme-minimal
+# theme: jekyll-theme-minimal
