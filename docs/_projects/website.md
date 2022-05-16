@@ -16,3 +16,9 @@ I feel embarassed calling this a tech stack, since all these tools are basically
 | Posts | | Markdown |
 | Environment| | VS Code |
 
+{% for post in site.posts %}
+<p>
+    <a href="{{ post.url }}">{{ post.title }}</a>
+</p>
+{% endfor %}
+
