@@ -1,5 +1,6 @@
 ---
 project: website
+tags: protabla linkage
 ---
 This is an example of a jekyll post.
 

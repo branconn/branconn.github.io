@@ -1,12 +1,37 @@
 ---
-title: About
-layout: single
-order: 2
-toc: true
+project: website
+tag: website
 ---
-<!-- # About page -->
-This page tells you a little bit about the cafe.
+[source: markdown-it.github.io](https://markdown-it.github.io "https://markdown-it.github.io")
+# h1 Heading
+## h2 Heading
+### h3 Heading
+#### h4 Heading
+##### h5 Heading
+###### h6 Heading
+
+
+## Horizontal Rules
+
+___
+
 ---
+
+***
+
+
+## Typographic replacements
+
+Enable typographer option to see result.
+
+(c) (C) (r) (R) (tm) (TM) (p) (P) +-
+
+test.. test... test..... test?..... test!....
+
+!!!!!! ???? ,,  -- ---
+
+"Smartypants, double quotes" and 'single quotes'
+
 
 ## Emphasis
 

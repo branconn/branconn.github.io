@@ -7,7 +7,7 @@ defaults:
       path: ""
       type: "projects"
     values:
-      layout: "posts"
+      layout: "tag"
       sidebar:
         nav: "projects"
   - scope:
@@ -26,9 +26,10 @@ plugins:
   - jekyll-include-cache
 baseurl: ""
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-minimal_mistakes_skin: "dark" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin: "dirt" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 # theme: minima
 title: CafedeCube
+logo: "/assets/images/cdc3.png"
 author: B. C.
 header_files:
   - index.html
