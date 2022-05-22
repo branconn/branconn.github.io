@@ -1,13 +1,12 @@
-top_level:
-  - title: "The Cafe"
+main:
+  - title: "Home"
     url: /
-    children:
-      - title: "About"
-        url: /about.html
-      - title: "Notes"
-        url: /notes.html
-      - title: "Projects"
-        url: /projects.html
+  - title: "About"
+    url: /about.html
+  - title: "Notes"
+    url: /notes.html
+  - title: "Projects"
+    url: /projects.html
 projects:
   - title: "The Cafe"
     url: /

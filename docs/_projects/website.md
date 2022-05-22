@@ -3,6 +3,7 @@ short_name: website
 name: This Website
 taxonomy: website
 toc: true
+excerpt: "A meta posting about the making of this website"
 ---
 This is a meta posting about the making of this website. My plan with this site was to have a place to centralize and showcase
 my work as I build a portfolio in software development. Keeping this site static and linking to demos was fine enough for me, and there are plenty of free hosting options for static websites.

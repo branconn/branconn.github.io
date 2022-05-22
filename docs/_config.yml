@@ -7,25 +7,25 @@ defaults:
       path: ""
       type: "projects"
     values:
-      layout: "single"
+      layout: single
+      mathjax: true
       sidebar:
         nav: "projects"
-      toc: "true"
+      toc: true
   - scope:
       path: ""
       type: "posts"
     values:
-      layout: "single"
-      toc: "true"
+      layout: single
+      mathjax: true
+      toc: true
       sidebar:
         nav: "top_level"
   - scope:
       path: ""
     values:
-      layout: "single"
-      sidebar:
-        nav: "top_level"
-        
+      layout: single
+
 plugins:
   - jekyll-feed
   - jekyll-sitemap
@@ -38,9 +38,9 @@ minimal_mistakes_skin: "dirt" # "default", "air", "aqua", "contrast", "dark", "d
 title: Cafe de Cube
 logo: "/assets/images/cdc3.png"
 author: B. C.
-# header_files:
-#   - index.html
-#   - about.md
-#   - projects.html
-#   - notes.html
+header_files:
+  - index.html
+  - about.md
+  - projects.html
+  - notes.html
 # theme: jekyll-theme-minimal
