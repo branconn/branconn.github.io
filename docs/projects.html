@@ -5,12 +5,11 @@ layout: collection
 sidebar:
   nav: "projects"
 ---
-<ul>
+<!-- <ul> -->
   {% for project in site.projects %}
-    <li>
+    <!-- <li> -->
       <h2><a href="{{ project.url }}">{{ project.name }}</a></h2>
-      <h3>{{ project.position }}</h3>
-      <p>{{ project.content | markdownify }}</p> 
-    </li>
+      <p>{{ project.excerpt }}</p> 
+    <!-- </li> -->
   {% endfor %}
-</ul>
+<!-- </ul> -->

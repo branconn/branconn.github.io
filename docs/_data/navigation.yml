@@ -8,7 +8,16 @@ main:
   - title: "Projects"
     url: /projects.html
 projects:
-  - title: Projects
+  - title: "The Cafe"
+    url: /
+    children:
+      - title: "About"
+        url: /about.html
+      - title: "Notes"
+        url: /notes.html
+      - title: "Projects"
+        url: /projects.html
+  - title: 
     children:
       - title: "Linkage Caliper"
         url: /projects/linkage.html
