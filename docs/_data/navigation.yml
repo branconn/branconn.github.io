@@ -20,7 +20,9 @@ projects:
   - title: 
     children:
       - title: "Linkage Caliper"
-        url: /projects/linkage.html
+        url: /projects/linkage-caliper.html
+      - title: "SMS Poker"
+        url: /projects/sms-poker.html
       - title: "Protabla"
         url: /projects/protabla.html
       - title: "This Website"
